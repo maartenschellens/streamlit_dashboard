@@ -6,9 +6,6 @@ import geopandas as gpd
 import folium
 from streamlit_folium import folium_static
 import altair as alt
-from state import count_sessions
-
-count_sessions()
 
 st.set_page_config(
     page_title="Rijksmonumentdichtheid van Nederland",
